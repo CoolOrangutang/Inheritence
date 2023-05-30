@@ -2,18 +2,18 @@ public class Main {
 
     public static void main(String[] args){
 
-        Swedish swedish = new Swedish();
-        swedish.age();
-        System.out.println(swedish.talk);
+        Swedish swedish = new Swedish("Anna");
+        //swedish.age();
+        System.out.println(swedish.talking());
 
 
-        Spanish spanish = new Spanish();
-        spanish.age();
-        System.out.println(spanish.talk);
+        Spanish spanish = new Spanish("Fabbe");
+        //spanish.age();
+        System.out.println(spanish.talking());
 
-        English english = new English();
-        english.age();
-        System.out.println(english.talk);
+        English english = new English("Tom");
+        //english.age();
+        System.out.println(english.talking());
 
     }
 

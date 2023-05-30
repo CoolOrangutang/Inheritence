@@ -1,5 +1,13 @@
 public class English extends Human{
 
-    String talk = "My name is " + name + " and I live in England.";
 
+    English(String namn) {
+        super(namn);
+    }
+
+    public String talking() {
+        super.age();
+        String talk = "My name is " + name + " and I live in England.";
+        return talk;
+    }
 }

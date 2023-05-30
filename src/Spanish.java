@@ -1,5 +1,17 @@
 public class Spanish extends Human{
 
-    String talk = "Mi nombre es " + name + " y vivo en Suecia.";
+
+    Spanish(String namn) {
+        super(namn);
+    }
+
+    public String talking() {
+        super.age();
+        String talk = "Mi nombre es " + name + " y vivo en Suecia.";
+        return talk;
+    }
 
 }
+
+
+
